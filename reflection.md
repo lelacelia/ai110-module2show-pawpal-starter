@@ -5,7 +5,19 @@
 **a. Initial design**
 
 - Briefly describe your initial UML design.
+Ask for user and pet information.
+Ask to specify what tasks are needed, task will have task name, duration, and how important/priority, owner preference
+Generate a daily plan arranging tasks that will need to be done.
+
 - What classes did you include, and what responsibilities did you assign to each?
+Classes needed:
+1.Owner (Name, Contact information, pet's name)
+
+2.Pet (Pet's name, Pet's breed, Tasks needed) 
+
+3.Task details editable by owner (feedings, walks, medications) (type, duration, priority, other desires)
+
+4.Scheduler: Arrange tasks based on priorities, duration, availability and other factors. Methods can be ask owner's info, record task, arrange task, 
 
 **b. Design changes**
 
